@@ -13,7 +13,7 @@ Question: {question}
 Context: {context} 
 Answer:
 """
-pdfs_directory = 'eng.pdfs/'
+pdfs_directory = 'pdfs'
 #pdfs_directory = 'chat-with-pdf/pdfs/'
 
 embeddings = OllamaEmbeddings(model="deepseek-r1:14b")
